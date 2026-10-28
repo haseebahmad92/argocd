@@ -6,3 +6,5 @@ resources:
   - file3
   - file4
   - file5
+  - 71-master-ssh-motd.yaml
+  - 71-worker-ssh-motd.yaml
