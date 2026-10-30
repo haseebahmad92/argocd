@@ -1,9 +1,9 @@
 apiVersion: machineconfiguration.openshift.io/v1
 kind: MachineConfig
 metadata:
-  name: 71-worker-ssh-motd
+  name: 71-worker-ssh-motd 
   labels:
-    machineconfiguration.openshift.io/role: worker 
+    machineconfiguration.openshift.io/role: worker
 spec:
   config:
     ignition:
@@ -15,4 +15,4 @@ spec:
         overwrite: true
         filesystem: root
         contents:
-          source: data:plain/text;charset=utf8;base64,IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIwoKCkBAQEBAQEAgSGVsbG8gV29ybGQgQEBAQEBAQEBAQEBAQEBACgoKCgojIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIwoKCgoKCgoKCg==
+          source: data:plain/text;charset=utf8,base64,IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIwoKCkBAQEBAQEAgSGVsbG8gV29ybGQgQEBAQEBAQEBAQEBAQEBACgoKCgojIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIwoKCgoKCgoKCg==
