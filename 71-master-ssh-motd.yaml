@@ -1,4 +1,4 @@
-piVersion: machineconfiguration.openshift.io/v1
+apiVersion: machineconfiguration.openshift.io/v1
 kind: MachineConfig
 metadata:
   name: 71-master
